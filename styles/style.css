@@ -92,7 +92,7 @@ header {
 /*------------- HIGHLIGHTS ------------------*/
 
 #highlights {
-    background-color: #bef4f8;
+  background-color: #bef4f8;
 }
 
 #highlights h1 {
@@ -116,18 +116,18 @@ header {
 }
 
 #destinotions a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 strong {
-    color: #005a29;
+  color: #005a29;
 }
 
 #destinotion img {
-    width: 100%;
-    height: 150px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 4px #00000080;
-    margin-bottom: 10px;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #00000080;
+  margin-bottom: 10px;
 }
