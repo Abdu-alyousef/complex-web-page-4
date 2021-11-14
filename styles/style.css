@@ -55,7 +55,7 @@ header {
 #hero-content {
   position: relative;
   top: 275px;
-  background-color: rgba(51, 47, 47, 0.8);
+  background-color: #332f2fcc;
   text-align: center;
   width: 70%;
   margin-right: 15%;
@@ -131,3 +131,25 @@ strong {
   box-shadow: 2px 2px 4px #00000080;
   margin-bottom: 10px;
 }
+
+
+
+/*------------- FOOTER ------------------*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+footer a {
+  text-decoration: none;
+  margin-right: 30px;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  
+}
+
+
