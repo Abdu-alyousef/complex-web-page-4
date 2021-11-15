@@ -1,38 +1,48 @@
 body {
-  background-color: #555;
+  background-color: #3f3f3f;
 }
+
+/* -------- NORMAL CARD ------- */
 
 #card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 3%;
-  margin-right: 3%;
-  padding: 0px;
-  overflow: hidden;
-}
-#card li {
-  display: flex;
-  background-color: #fff;
-  border-radius: 5px;
-  width: 540px;
-  height: 200px;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  overflow: hidden;
-  margin-left: 40px;
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
-}
-#card li img {
-  width: 240px;
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 20px;
+ 
 }
 
-li div p {
-  font-size: 85%;
-}
-li div a {
+.card-list {
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   display: flex;
-  justify-content: right;
-  margin-top: 70px;
-  margin-right: 15px;
+  flex-direction: row;
+  width: 590px;
+   background-color: #fff;
+   overflow: hidden;
+   box-shadow: 2px 4px 4px #00000080;
 }
+
+
+.card-list div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5px;
+}
+
+#btn {
+  text-decoration: none;
+  text-align: right;
+  font-weight: bold;
+  color: #005a29;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+
+.card-list img {
+  width: 300px;
+  height: 250px;
+}
+
